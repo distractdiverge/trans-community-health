@@ -1,36 +1,77 @@
 # Trans Health Research & Content Aggregator
 
-A community-driven website aggregating TikTok content from transgender, nonbinary, and gender-diverse individuals discussing hormone therapy effects on conditions like hEDS, POTS, and MCAS.
+A community-led digital platform for transgender, nonbinary, and gender-diverse individuals to share and preserve knowledge about hormone therapy effects on chronic conditions like hEDS, POTS, and MCAS.
 
-## Project Goals
-- Create a centralized index of TikTok creators and their content
-- Amplify voices discussing hormone therapy effects on chronic conditions
-- Maintain ethical standards with explicit consent
-- Preserve community-generated knowledge
+## Our Vision
+
+This project is more than a website—it's a community-powered research initiative and living archive. We're building a digital town square where lived experience becomes validated knowledge, following the principles of Community-Based Participatory Research (CBPR).
+
+## Core Principles
+
+### 1. Community Leadership
+- Led by and for transgender, nonbinary, and gender-diverse individuals
+- Prioritizing leadership from TNB BIPOC community members
+- Valuing emotional labor and lived experience as expertise
+
+### 2. Ethical Framework
+- Granular, ongoing, revocable consent
+- Data minimization and privacy by design
+- Trauma-informed approach to all interactions
+- Compensation for community contributions
+
+### 3. Knowledge Preservation
+- Creating a living archive of community knowledge
+- Implementing digital preservation strategies
+- Ensuring accessibility across languages and abilities
+
+## Platform Features
+
+### Phase 1: Foundation
+- [x] Secure, multilingual data collection forms
+- [ ] Private, moderated community forums
+- [ ] Creator index with consent-based content
+- [ ] Resource library with vetted information
+
+### Future Phases
+- GIS mapping of affirming healthcare providers
+- Longitudinal health tracking tools
+- Research collaboration tools
+- Community archive of digital stories
 
 ## Tech Stack
-- Next.js (React)
-- Tailwind CSS for styling
-- Supabase for backend and database
-- Formik for form handling
-- EmailJS for contact forms
 
-## Features
-1. Creator Index/Gallery
-2. Content Showcase
-3. Self-Submission Form
-4. About/Mission Page
+- **Frontend**: Next.js 14 with TypeScript
+- **Styling**: Tailwind CSS with accessibility focus
+- **Database**: Supabase (PostgreSQL)
+- **Forms**: Formik with Yup validation
+- **Maps**: OpenLayers/Leaflet for GIS features
+- **Auth**: NextAuth.js with multiple providers
+- **i18n**: Next-intl for multilingual support
 
 ## Getting Started
+
 1. Clone the repository
 2. Install dependencies: `npm install`
-3. Create a `.env.local` file with required environment variables
+3. Set up environment variables (see `.env.example`)
 4. Run the development server: `npm run dev`
 
-## Important Notes
-- All content must be added through explicit consent
-- No automatic scraping of content
-- Privacy and security are top priorities
+## Security & Privacy
+
+- All data is encrypted in transit and at rest
+- Granular consent controls for participants
+- Regular security audits and penetration testing
+- Clear data retention and deletion policies
 
 ## Contributing
-Please read our code of conduct before contributing.
+
+We welcome contributions that align with our community values and code of conduct. Please read our [contribution guidelines](CONTRIBUTING.md) before getting started.
+
+## License
+
+This project is licensed under the AGPL-3.0 license - see the [LICENSE](LICENSE) file for details.
+
+## Acknowledgments
+
+- Inspired by the Patient-Led Research Collaborative (PLRC) model
+- Built with guidance from trans healthcare advocates
+- Made possible by the resilience of the TGD community
